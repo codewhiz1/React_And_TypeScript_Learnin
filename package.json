@@ -1,0 +1,28 @@
+{
+  "name": "ty_script",
+  "version": "1.0.0",
+  "description": "Contains React and TypeScript Code",
+  "main": "index.js",
+  "scripts": {
+    "it": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Learn-TypeScript"
+  },
+  "author": "anubhav",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
